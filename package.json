@@ -2,7 +2,9 @@
   "name": "greeter-bot",
   "version": "1.0.0",
   "main": "bot.js",
-  "author": "Danny O'Connell",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "discord.io": "^2.5.3",
     "winston": "^2.4.2"
